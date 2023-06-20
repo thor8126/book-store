@@ -11,10 +11,10 @@ function ThemeButton(props) {
       className={`outline-base-content overflow-hidden rounded-lg text-left ${
         activeTheme === props.name ? "visible" : ""
       }`}
-      data-set-theme="light"
+      data-set-theme={props.name}
     >
       <div
-        data-theme="light"
+        data-theme={props.name}
         className="bg-base-100 text-base-content w-full cursor-pointer font-sans"
       >
         <div className="grid grid-cols-5 grid-rows-3">

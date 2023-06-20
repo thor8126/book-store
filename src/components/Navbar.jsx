@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import LoginButton from "../components/LoginButton";
 import LogoutButton from "./LogoutButton";
 import Theme from "./Theme";
+import { useEffect } from "react";
 
 function Navbar(props) {
   const { user } = props;

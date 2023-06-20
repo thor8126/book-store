@@ -3,6 +3,7 @@ import ThemeButton from "./ThemeButton";
 
 function Theme(props) {
   const { toggleTheme, theme } = props;
+
   const themes = [
     "light",
     "dark",
