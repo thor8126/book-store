@@ -7,6 +7,7 @@ import Home from "./components/Home";
 import CheckoutPage from "./components/CheckoutPage";
 import Cart from "./components/Cart";
 import Profile from "./components/Profile";
+const api = "https://booklet-yz1g.onrender.com/";
 
 export default function App() {
   const { isAuthenticated, user } = useAuth0();
